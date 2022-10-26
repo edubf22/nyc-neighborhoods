@@ -7,3 +7,5 @@ _Figure credit: [Emiliano Bar](https://unsplash.com/photos/kheTI8pIywU?utm_sourc
 In this project, we aimed to segment neighborhoods in New York City (NYC) into different clusters based on the availability of healthcare services. 
 
 Clustering was done using different models, such as the K-means algorithm from the Scikit-Learn package, hierarchichal clustering and DBSCANS. Information on healthcare and medicine locations was obtained using the Foursquare API. 
+
+    Add what kind of clustering we did (e.g. by most common venues)
