@@ -8,7 +8,7 @@ Astoria,1575,1875,2200
 Hell's Kitchen,2012,2742,3900
 Crown Heights,1759,1850,2200
 Midtown East,2100,3208,4600
-Chelsea,2323,3125,4959
+"Chelsea, Manhattan",2323,3125,4959
 Flatbush,1618,1800,2117
 Financial District,2195,3027,3650
 Long Island City,1971,2500,3300
@@ -16,13 +16,13 @@ Flushing,1600,1750,2150
 West Harlem,1937,2647,2400
 Central Harlem,1713,2000,2667
 East Village,1850,2425,2933
-Murray Hill,2400,3350,4678
+"Murray Hill, Manhattan",2400,3350,4678
 Ridgewood,1811,1800,2000
 East Harlem,1600,2000,2300
 Park Slope,2100,2475,2700
 West Village,2300,3310,4995
 Washington Heights,1650,1775,2163
-Downtown Brooklyn,2310,3150,4057
+Downtown,2310,3150,4057
 Rego Park,1673,1850,2300
 Kips Bay,2150,2698,3646
 Theater District,2423,3300,4850
@@ -36,7 +36,7 @@ Clinton Hill,1900,2300,2950
 Tribeca,2538,3800,5625
 Forest Hills,1575,1900,2300
 East Flatbush,2700,1725,1950
-Gramercy Park,2400,3398,3630
+Gramercy,2400,3398,3630
 Lower East Side,2275,2375,3195
 Ocean Hill,1700,1800,2100
 Jackson Heights,1575,1800,2150
@@ -45,7 +45,7 @@ Woodside,1550,1700,2173
 Greenwich Village,2300,3495,4500
 Sheepshead Bay,1570,1665,2200
 Bayside,1850,1850,2300
-Flatiron District,4098,5483,9295
+Flatiron,4098,5483,9295
 Sunset Park,5900,1725,1900
 Carroll Gardens,2175,2400,3000
 Soho,2400,2895,3850
@@ -99,7 +99,7 @@ NoHo,2500,1750,7248
 Cobble Hill,1200,1650,2700
 Pelham Bay,1945,1750,1950
 Windsor Terrace,1600,1600,2952
-DUMBO,1313,1650,5895
+Dumbo,1313,1650,5895
 Concourse,1450,2250,2000
 Highbridge,1375,1650,1900
 Little Italy,1450,3000,3850
