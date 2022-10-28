@@ -7,7 +7,7 @@ _Figure credit: [Emiliano Bar](https://unsplash.com/photos/kheTI8pIywU?utm_sourc
 ## Introduction
 In this project, we aimed to segment neighborhoods in New York City (NYC) into different clusters based on the availability of healthcare services. 
 
-Different clustering models from the Scikit-Learn package were used, such as the K-means algorithm, hierarchichal clustering and DBScans. Venue information was obtained using the Foursquare API. Geolocation and populational information was obtained from the [NYC Open Data](https://data.cityofnewyork.us/) database.
+Different clustering models from the Scikit-Learn package were used, such as the K-means algorithm, hierarchichal clustering and DBScans. Venue information was obtained using the Foursquare API. Geolocation and populational information was obtained from the [NYC Open Data](https://data.cityofnewyork.us/) database. Rental cost information was sourced from [Zumper](https://www.zumper.com/rent-research/new-york-ny) and [CityRealty](https://www.cityrealty.com/nyc/market-insight/rental-building-offers/battery-park-city/map-average-nyc-rent-prices-july-2020-21-buildings-offering-free-rent/45084).
 
 The ```src``` folder contains the code used during the data processing, modelling and figure generation steps. Raw and processed .csv files can be found in the ```data``` folder. Finally, the resulting submission.csv file containing neighborhoods and respective cluster labels can be found in the ```output``` folder, as well as figures generated during the data exploration and visualization steps.  
 
@@ -20,7 +20,7 @@ Populational data is from two census that took place on different years (2000 an
 
 ## Findings Summary
 
-Different features were used for clustering the neighborhoods. The most interesting method to group neighborhoods that have similarities in their top 5 most common healthcare facility types. The resulting clustering can be seen in a map (snippet shown below). To visualize the clusters in an intercative map, please download the [HTML file](/output/Most_Common_Category_Clusters.HTML) and open it with preferred browser.
+Different features were used for clustering the neighborhoods. The most interesting method was grouping neighborhoods that have similarities in their top 5 most common healthcare facility types. The resulting clustering can be seen in a map (snippet shown below). For this clustering, the KMeans algorithm was used. To visualize the clusters in an intercative map, please download the [HTML file](/output/Most_Common_Category_Clusters.HTML) and open it with preferred browser.
 
 [![NYC Clustered Neighborhoods](/nyc-cluster-map.png)](/output/Most_Common_Category_Clusters.HTML).
 
