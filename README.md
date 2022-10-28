@@ -1,7 +1,7 @@
 # Clustering NYC Neighborhoods
 <p style="text-align: center;"><b> Midterm project - LHL Data Science Bootcamp </b></p>
 
-![New York City](/output/figures/emiliano-bar-kheTI8pIywU-unsplash.jpg)
+![New York City](/emiliano-bar-kheTI8pIywU-unsplash.jpg)
 _Figure credit: [Emiliano Bar](https://unsplash.com/photos/kheTI8pIywU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)_
 
 ## Introduction
