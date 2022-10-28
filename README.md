@@ -34,7 +34,7 @@ It is also interesting to notice that Staten Island comes in second in availabil
 
 <img src="output/figures/borough-venues.png" width="532" height="400" />
 
-More intereting relationships can be found by navigating the repo. More specifically, it is interesting how other clustering methods (DBScans and hierarchical clustering) performed. 
+Additional relationships can be found by navigating the repo. More specifically, it is interesting to see how other clustering methods (DBScans and hierarchical clustering) performed. 
 
 ## Conclusion
 
