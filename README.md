@@ -19,3 +19,5 @@ Economic information relates to the [average](https://drive.google.com/file/d/17
 Populational data is from two census that took place on different years (2000 and 2010). The data includes borough and neighborhood information. Since the neighborhoods are grouped for tabulation purposes, only the borough was used to connect populational data with healtcare service information. 
 
 ## Findings
+
+<iframe src="Most_Common_Category_Clusters.HTML" height="500" width="500"></iframe>
