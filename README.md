@@ -20,4 +20,4 @@ Populational data is from two census that took place on different years (2000 an
 
 ## Findings
 
-<iframe src="Most_Common_Category_Clusters.HTML" height="500" width="500"></iframe>
+Different features were used for clustering the neighborhoods. The most interesting method was by grouping neighborhoods that have similarities in their top 5 most common healthcare facility types. The resulting clustering can be seen [in a map](/src/Most_Common_Category_Clusters.HTML).
