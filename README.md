@@ -24,5 +24,16 @@ Different features were used for clustering the neighborhoods. The most interest
 
 [![NYC Clustered Neighborhoods](/nyc-cluster-map.png)](/output/Most_Common_Category_Clusters.HTML).
 
-The relationship between rent price and access to healthcare was evaluated with the help of a correlation matrix. To do that, the median rent price data was used since it included more neighborhoods. The data from the median price data was used to calculate the average rent price by neighborhood. 
-![Correlation matrix](output/figures/correlation_plot.png)
+The relationship between rent price and access to healthcare was evaluated with the help of a correlation matrix. To do that, the median rent price data was used since it included more neighborhoods. An average rent price by neighborhood could be calculated, and this feature was used to look at the correlation. It was found that the number of healthcare facilities is weakly correlated to the average rent price in a given neighborhood.
+
+<img src="output/figures/correlation_plot.png" width="532" height="400" />
+
+Another interesting aspect to consider is the availability of healthcare facilities in the each borough. As can be seen in the image below, Manhattan has the highest offering of facilities per 1000 residents. A possible explanation is that this borough is perhaps the most visited and most businesses/offices out of all boroughs, so a large number of hospitals, offices and other businesses have long been established there. This may also be correlated to the high rent prices in Manhattan - the population there is not as large since rent is not affordable, and that could affect the venue per residents ratio. 
+
+It is also interested to notice that Staten Island comes in second in availability of venues per resident. In this case, a possible explanation is that due to the fact this borough is an island. It would be inconvenient or even dangereous to leave to the other boroughs in case of an emergency. This may also have attracted other healthcare-related practitioners to establish themselves on the island - the benefit of not having to drive far may be very appealing to some patients.
+
+<img src="output/figures/borough-venues.png" width="532" height="400" />
+
+## Conclusion
+
+Using data from the NYC Open Data database, Foursquare and other sources, we were able to cluster different NYC neighborhoods using different approaches. The most interesting findings were obtained using KMeans clustering (cluster by most frequent categories and by total venue count). We were able to draw some relationship between economic (rent price) and demographic (borough population) factors.
